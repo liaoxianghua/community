@@ -1,5 +1,7 @@
 ## 码匠社区
 ## 资料
-https://spring.io/guides/gs/serving-web-content/#use-maven
-https://v3.bootcss.com/
+[spring 文档](https://spring.io/guides/gs/serving-web-content/#use-maven)
+[elastic](https://www.elastic.co/guide/cn/index.html)
+
 ## 工具
+[git oauth-app](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/)
