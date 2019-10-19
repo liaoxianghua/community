@@ -23,7 +23,6 @@ public class GithubPrivider {
                 .build();
         try (Response response = client.newCall(request).execute()) {
             String str = response.body().string();
-            System.out.println(str);
             return str;
         } catch (IOException e) {
             e.printStackTrace();
@@ -41,7 +40,6 @@ public class GithubPrivider {
         try (Response response = client.newCall(request).execute()) {
             String string = response.body().string();
             GithubUserDTO dto = JSON.parseObject(string, GithubUserDTO.class);
-            System.out.println(string);
             return dto;
         } catch (IOException e) {
             e.printStackTrace();
